@@ -1,7 +1,6 @@
 package assignment.question.one.car;
 
 public class Demo {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CarBuilder carBuilder = new SedanCar();
