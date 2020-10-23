@@ -23,9 +23,8 @@ public class SocketAdapterImpl implements SocketAdapter {
 	}
 	
 	private Volt convertVolts(Volt volt, int r){
-		int result = volt.getVolts();
+		int result = volt.getVolts()/r;
 		Volt v = new Volt(result);
 		return v;
 	}
-
 }
